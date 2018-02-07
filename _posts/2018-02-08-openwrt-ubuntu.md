@@ -1,6 +1,6 @@
 ---
 layout: default
-title: hello, jekyll
+title: Ubuntu(LTS)下搭建openwrt
 ---
 
 <h2>{{ page.title }}</h2>
