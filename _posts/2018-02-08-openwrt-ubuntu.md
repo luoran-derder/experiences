@@ -30,13 +30,12 @@ title: Ubuntu(sever)下搭建openwrt
 <p>sudo apt-get install sphinx-common</p>
 <p>sudo apt-get install git-core</p>
 ## title two : 在openwrt官网下载源码(https://openwrt.org/)
+<p>在ubuntu上调用命令直接安装，如果不熟悉命令的小伙伴，请自行学习</p>
+## title three : 编译openwrt源码
+<p>配置编译环境:$ make menuconfig</p> 
+<p>输入以上命令之后，会进入一个命令行图形界面</p>
 
-
-
-
-
+[*]表示:这个包裹选中编译，并安装在升级版本中； 
+[M]表示：这个软件包选中编译，但并不安装在升级版本中
  
-
-
-
-<p>{{ page.date | date_to_string }}</p>
+ <p>{{ page.date | date_to_string }}</p>
