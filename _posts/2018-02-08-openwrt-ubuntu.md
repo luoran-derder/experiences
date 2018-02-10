@@ -40,11 +40,6 @@ title: Ubuntu(sever)下搭建openwrt
 <p>此时烧录固件有两种方法(一种是通过网线ssh烧录，一种是连接串口)，具体看此时的板子是否支持网络通讯</p>
  烧录时需要输入的命令因板子不同而有差异，这里不再阐述。
 ## title five ： 设置路由器
- 这里有一个坑，在make menuconfig的时候一定要将luci选上，这是路由器web的图形界面，用ssh登录的时候一般都需要改密码再确认(用web图形界面修改密码很方便，除非你想在内核里面修改)，才能使用ssh远程登录openwrt。
- 
- 
- 
- 
- 
- 
- <p>{{ page.date | date_to_string }}</p>
+ <p>这里有一个坑，在make menuconfig的时候一定要将luci选上，这是路由器web的图形界面，用ssh登录的时候一般都需要改密码再确认(用web图形界面修改密码很方便，除非你想在内核里面修改)，才能使用ssh远程登录openwrt。之后在对路由器进行其他设置如gateway和dns的添加和修改等等。</p>
+ 至此，你的路由器已经具备基础功能了
+ <p>{{ page.date | date_to_string }}</p>
