@@ -1,6 +1,6 @@
 ---
 layout: default
-title: jekyll+hithub搭建静态网站(避坑宝典)
+title: jekyll+github搭建静态网站(避坑宝典)
 ---
 
 <h2>{{ page.title }}</h2>
